@@ -1,0 +1,409 @@
+* {
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+    position:sticky;
+    top: 0;
+}
+
+.menuPrincipal{
+    background-color: #e9c46a;
+    height: 150px;
+    
+}
+
+.fotoLogo{
+    width: 200px;
+    height: auto;
+}
+
+.menuPrincipal ul{
+    display: inline-block;
+}
+
+.menuPrincipal ul li{
+    display: inline-block;
+    position: relative;
+    bottom: 100px;
+    left: 80px;
+    padding: 60px; 
+    font-size: 20px;  
+}
+
+.menuPrincipal ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.principal{
+    background-image: url(../IMAGENES/ethan-robertson-SYx3UCHZJlo-unsplash.jpg);
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.principal h1{
+    padding: 10px 0 0 500px;
+    
+}
+
+.principal p{
+    padding: 10px 0 0 400px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.fotos h2 {
+    margin-left: 500px;
+    margin-top: 40px;
+    font-size: 25px; 
+
+}
+
+.fotos img{
+    width: 250px;
+    height: auto;
+    padding: 5px;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.footer ul {
+    background-color: #264653;
+    color: white;
+}
+.footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 90px;
+}
+.whatsapp{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+}
+.whatsapp img{
+    width: 50px;
+}
+
+.primeraParte{
+    background-image: url(../IMAGENES/duy-pham-Cecb0_8Hx-o-unsplash.jpg);
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.primeraParte h1{
+    padding: 50px 0 0 540px;
+    font-size: 45px;
+}
+
+.primeraParte p{
+    padding: 10px 0 0 350px;
+    font-size: 25px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Europa{
+    background-color: #2a9d8f;
+    height: 50px;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.Europa h3{
+    padding: 0 0 400px 610px;
+    font-size: 25px;
+}
+
+.tours{
+    width: 450px;
+    height: 350px;
+    display: inline-block;
+}
+
+
+
+.tours img{
+    width: 400px;
+    height: 250px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.tituloftour{
+    margin-left: 150px;
+    color: #e76f51;
+    font-size: 25px;
+}
+
+.descripftour{
+    margin-left: 90px;
+    font-size: 18px ;
+}
+
+.includesftour{
+    margin-left: 70px;
+}
+
+.inicionos{
+    background-image:url(../IMAGENES/javier-allegue-barros-i5Kx0P8A0d4-unsplash.jpg);
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.inicionos h2{
+    margin-left: 150px ;
+    padding-top: 100px ;
+    font-size: 45px;
+    
+}
+
+.inicionos h3{
+    margin-left: 60px ;
+    padding-top: 15px;
+    font-size: 25px;
+    font-style:italic;
+}
+
+.nostext{
+    background-color:bisque;
+    height: 300px; 
+    
+}
+
+.lideres{
+    padding-top: 100px;
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.textolid{
+    width: 1000px;
+    text-align: center;
+    padding-left: 600px;
+    font-size: 20px;
+}
+
+.mision{
+    background-color: #2a9d8f ;
+    height: 300px;
+    padding-top: 45px;
+}
+
+.mision img{
+    width: 100px;
+    height: 100px;
+    margin-left: 650px;
+
+}
+
+.mision h2{
+    margin-left: 650px;
+    padding-top: 20px;
+}
+
+.mision p{
+    text-align: center;
+    margin: 25px 30px 0 30px;
+    font-size: 20px
+}
+
+.vision{
+    background-color: bisque;
+    height: 300px;
+}
+
+.vision img{
+    width: 100px;
+    height: 130px;
+    margin-left: 650px;
+    padding-top: 30px;
+}
+
+.vision h2{
+    margin-left: 650px;
+    padding-top: 20px;
+}
+
+.vision p{
+    text-align: center;
+    margin: 25px 30px 0 30px;
+    font-size: 20px 
+}
+
+.contacto{
+    background-image: url(../IMAGENES/contact\ us.jpg);
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contacto h1{
+    color: white;
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 35px;
+}
+
+.contacto p{
+    color: white;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.contactanos{
+    padding-top: 30px;
+    font-size: 30px;
+    background-color: #264653;
+    color: white;
+    padding-bottom: 20px;
+    width: 500px;
+}
+
+.datos{
+    padding-top: 20px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.informacion{
+    width: 1349px;
+    height: 100px;
+    background-color: #2a9d8f;
+   display: flex;
+   margin-top: 10px;
+}
+
+.informacion p {
+    color: white;
+    font-size: 20px;
+    padding-top: 35px;
+    padding-left: 10px;
+}
+
+.emogi{
+    width: 70px;
+    height: 70px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.emogitel{
+    width: 65px;
+    height: 65px;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.emogihorario{
+    width: 70px;
+    height: 70px;
+    margin-left: 80px;
+    padding-top: 10px;
+}
+
+.mapa{
+    width: 450px;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.ubicacion{
+    display: inline-block;
+}
+
+.direccion{
+    display: inline-block;
+}
+   
+.destinos{
+    background-image: url(../IMAGENES/annie-spratt-qyAka7W5uMY-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    opacity: 0,7;
+}
+
+.destinos h1{
+    padding-top: 130px ;
+    margin-left: 600px;
+    font-size: 40px;
+}
+
+.destinos p{
+    margin-left: 500px;
+    padding-top: 10px;
+    font-size: 20px; 
+}
+
+.destinoseur h2{
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 30px
+
+}
+
+.destinoseur img{
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.destinosarg h2{
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 30px
+}
+
+.destinosarg img{
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.destinoscar h2{ 
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 30px
+}
+
+.destinoscar img{
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.destinosdis h2{
+    margin-left: 650px;
+    margin-top: 30px;
+    font-size: 30px
+}
+
+.destinosdis img{
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
