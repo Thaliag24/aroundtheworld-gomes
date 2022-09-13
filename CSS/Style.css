@@ -16,31 +16,42 @@ header{
 .menuPrincipal{
     background-color: #e9c46a;
     height: 150px;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    justify-content: space-between;
 }
 
 .fotoLogo{
     width: 200px;
     height: auto;
+    margin-left: 20px;
 }
 
 .menuPrincipal ul{
-    display: inline-block;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}   
 
 .menuPrincipal ul li{
-    display: inline-block;
-    position: relative;
-    bottom: 100px;
-    left: 80px;
-    padding: 60px; 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
     font-size: 20px;  
 }
 
 .menuPrincipal ul li a{
     text-decoration: none;
     color: black;
-    
+    padding: 16px;
+    margin: 20px; 
+}
+
+.menuPrincipal ul li a:hover{
+    background-color:#2a9d8f;
+    border-radius: 10px;
 }
 
 .principal{
@@ -63,29 +74,49 @@ header{
     font-style: italic;
 }
 
-.fotos h2 {
+.titulofot{
     margin-left: 500px;
-    margin-top: 40px;
-    font-size: 25px; 
+    margin-top: 50px;
+    font-size: 20px;
+}
 
+.fotos{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    margin-top: 40px;
 }
 
 .fotos img{
-    width: 250px;
+    width: 300px;
     height: auto;
-    padding: 5px;
-    margin-left: 75px;
-    margin-top: 20px;
+    justify-content: space-between;
+}
+
+.caribe:hover{
+    filter: blur(5px);
+}
+
+.argentina:hover{
+    filter: blur(5px);
+}
+
+.disney:hover{
+    filter: blur(5px);
+}
+
+.europa:hover{
+    filter: blur(5px);
 }
 
 .footer ul {
     background-color: #264653;
-    color: white;
 }
 .footer ul li{
     list-style-type: none;
     display: inline-block;
     padding: 20px 90px;
+    color: white;
 }
 .whatsapp{
     position: fixed;
@@ -102,7 +133,6 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
 }
 
 .primeraParte h1{
@@ -134,8 +164,6 @@ header{
     height: 350px;
     display: inline-block;
 }
-
-
 
 .tours img{
     width: 400px;
@@ -205,29 +233,34 @@ header{
     background-color: #2a9d8f ;
     height: 300px;
     padding-top: 45px;
+    display: flex;
 }
 
 .mision img{
     width: 100px;
     height: 100px;
     margin-left: 650px;
+    display: flex;
 
 }
 
 .mision h2{
     margin-left: 650px;
     padding-top: 20px;
+    display: flex;
 }
 
 .mision p{
     text-align: center;
     margin: 25px 30px 0 30px;
-    font-size: 20px
+    font-size: 20px;
+    display: flex;
 }
 
 .vision{
     background-color: bisque;
     height: 300px;
+    display: flex;
 }
 
 .vision img{
@@ -235,6 +268,7 @@ header{
     height: 130px;
     margin-left: 650px;
     padding-top: 30px;
+    display: flex;
 }
 
 .vision h2{
@@ -355,31 +389,45 @@ header{
     font-size: 20px; 
 }
 
-.destinoseur h2{
-    margin-left: 650px;
-    margin-top: 30px;
-    font-size: 30px
+.eurotit h2{
+    font-size: 30px;
+    margin-left: 620px ;
+    padding-top: 20px
 
+}
+
+.destinoseur{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
 }
 
 .destinoseur img{
     width: 300px;
     height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
-.destinosarg h2{
-    margin-left: 650px;
+.argentit h2{
+    font-size: 30px;
+    margin-left: 620px ;
+    padding-top: 20px;
+}
+
+.destinosarg{
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 30px;
-    font-size: 30px
 }
 
 .destinosarg img{
     width: 300px;
     height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 .destinoscar h2{ 
@@ -395,15 +443,22 @@ header{
     margin-top: 20px;
 }
 
-.destinosdis h2{
-    margin-left: 650px;
+.distit h2{
+    font-size: 30px;
+    margin-left: 620px ;
+    padding-top: 20px;
+}
+
+.destinosdis{
+    display: flex;
+    justify-content: space-evenly;
     margin-top: 30px;
-    font-size: 30px
 }
 
 .destinosdis img{
     width: 300px;
     height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }

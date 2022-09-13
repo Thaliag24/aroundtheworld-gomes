@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,200;0,400;1,100;1,600;1,700&display=swap" rel="stylesheet">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
 </head>
 <body>
 
@@ -28,17 +30,28 @@
     </nav>
     </header>
 
-    <main class="principal" >
+    <main class="principal" data-aos="fade-right" >
         <h1>¡Es tu momento de viajar!</h1>
         <p>Descubrí todos los destinos que tenemos para vos.</p>
     </main>
 
-    <section class="fotos">
-        <h2>¡Conocé tu lugar en el mundo!</h2>
-            <img src="./IMAGENES/Caribe.jpg" alt="Caribe">
-            <img src="./IMAGENES/Argentina.jpg" alt="Argentina">
-            <img src="./IMAGENES/Disney.jpg" alt="Disney">
-            <img src="./IMAGENES/Europa.jpg" alt="Europa">
+    <div class="titulofot">
+    <h2>¡Conocé tu lugar en el mundo!</h2>
+    </div>
+
+    <section class="fotos" data-aos="fade-up">  
+            <div class="caribe">
+            <img  src="./IMAGENES/Caribe.jpg" alt="Caribe">
+            </div>
+            <div>
+            <img class="argentina" src="./IMAGENES/Argentina.jpg" alt="Argentina">
+            </div>
+            <div>
+            <img class="disney" src="./IMAGENES/Disney.jpg" alt="Disney">
+            </div>
+            <div>
+            <img class="europa" src="./IMAGENES/Europa.jpg" alt="Europa">
+            </div>
     </section>
 
     <footer class="footer">
@@ -53,6 +66,11 @@
     </div>    
     </footer>
 
-  
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000
+        });
+      </script>
 </body>
 </html>
