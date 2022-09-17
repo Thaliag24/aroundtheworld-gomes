@@ -8,53 +8,33 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-header{
-    position:sticky;
-    top: 0;
+
+
+/* Bootstrap */
+
+.bg-naranja{
+    background-color:#e9c46a;
 }
 
-.menuPrincipal{
-    background-color: #e9c46a;
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    justify-content: space-between;
+.navbar-expand-lg .navbar-nav .nav-link{
+    font-size: 22px;
 }
 
-.fotoLogo{
-    width: 200px;
-    height: auto;
-    margin-left: 20px;
+.btn-primary {
+    --bs-btn-color:white;
+    --bs-btn-bg:#e76f51;
+    --bs-btn-border-color: #e76f51;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #e9c46a;
+    --bs-btn-hover-border-color: #e9c46a;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #e9c46a;
+    --bs-btn-active-border-color: #e9c46a;
+    
 }
 
-.menuPrincipal ul{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}   
 
-.menuPrincipal ul li{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 20px;  
-}
-
-.menuPrincipal ul li a{
-    text-decoration: none;
-    color: black;
-    padding: 16px;
-    margin: 20px; 
-}
-
-.menuPrincipal ul li a:hover{
-    background-color:#2a9d8f;
-    border-radius: 10px;
-}
-
-.principal{
+/* .principal{
     background-image: url(../IMAGENES/ethan-robertson-SYx3UCHZJlo-unsplash.jpg);
     height: 400px;
     background-position: center;
@@ -78,7 +58,7 @@ header{
     margin-left: 500px;
     margin-top: 50px;
     font-size: 20px;
-}
+} */
 
 .fotos{
     display: flex;

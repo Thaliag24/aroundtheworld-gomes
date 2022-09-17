@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
 
-    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link rel="stylesheet" href="./CSS/Style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,40 +18,90 @@
 <body>
 
     <header> 
-     <nav class="menuPrincipal">
-        <img class="fotoLogo" src="./IMAGENES/LOGO_EESTE-removebg-preview (4).png" alt="Around the world">
-        <ul>
-            <li><a href="./Index.html">Inicio</a></li> 
-             <li><a href="./PAGINAS/Excursiones.html">Excursiones</a></li>
-            <li><a href="./PAGINAS/DESTINOS.html">Destinos</a></li>
-            <li><a href="./PAGINAS/Nosotros.html">Nosotros</a></li>
-            <li><a href="./PAGINAS/Contacto.html">Contacto</a></li>
-         </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-naranja">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./Index.html"><img src="./IMAGENES/LOGO_EESTE-removebg-preview (4).png" alt="Logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./Index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./PAGINAS/Excursiones.html">Excursiones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./PAGINAS/Destinos.html">Destinos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./PAGINAS/Nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./PAGINAS/Contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
 
-    <main class="principal" data-aos="fade-right" >
-        <h1>¡Es tu momento de viajar!</h1>
-        <p>Descubrí todos los destinos que tenemos para vos.</p>
-    </main>
+ <main>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./IMAGENES/Recurso 4.png" class="d-block w-100" alt="lentes">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGENES/Recurso 2.png" class="d-block w-100" alt="pelota">
+          </div>
+          <div class="carousel-item">
+            <img src="./IMAGENES/Recurso 3.png" class="d-block w-100" alt="avion">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+ </main>
 
-    <div class="titulofot">
-    <h2>¡Conocé tu lugar en el mundo!</h2>
-    </div>
-
-    <section class="fotos" data-aos="fade-up">  
-            <div class="caribe">
-            <img  src="./IMAGENES/Caribe.jpg" alt="Caribe">
+    <section class="container-fluid" data-aos="fade-up"> 
+        <div class="row justify-content-evenly my-3">
+        <div class="card text-center" style="width: 18rem;">
+            <img src="./IMAGENES/caribe2.png" class="card-img-top" alt="Caribe">
+            <div class="card-body">
+              <h5 class="card-title">CARIBE</h5>
+              <a href="./PAGINAS/Destinos.html" class="btn btn-primary">Conocé más</a>
             </div>
-            <div>
-            <img class="argentina" src="./IMAGENES/Argentina.jpg" alt="Argentina">
+          </div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./IMAGENES/argentina2.png" class="card-img-top" alt="argentina">
+            <div class="card-body">
+              <h5 class="card-title">ARGENTINA</h5>
+              <a href="./PAGINAS/Destinos.html" class="btn btn-primary">Conocé más</a>
             </div>
-            <div>
-            <img class="disney" src="./IMAGENES/Disney.jpg" alt="Disney">
+          </div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./IMAGENES/disney2.png" class="card-img-top" alt="disney">
+            <div class="card-body">
+              <h5 class="card-title">DISNEY</h5>
+              <a href="./PAGINAS/Destinos.html" class="btn btn-primary">Conocé más</a>
             </div>
-            <div>
-            <img class="europa" src="./IMAGENES/Europa.jpg" alt="Europa">
+          </div>
+          <div class="card text-center" style="width: 18rem;">
+            <img src="./IMAGENES/europa2.png" class="card-img-top" alt="europa">
+            <div class="card-body">
+              <h5 class="card-title">EUROPA</h5>
+              <a href="./PAGINAS/Destinos.html" class="btn btn-primary">Conocé más</a>
             </div>
+          </div>
+        </div>
     </section>
 
     <footer class="footer">
@@ -72,5 +122,7 @@
             duration: 1000
         });
       </script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>
