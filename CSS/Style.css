@@ -29,10 +29,31 @@ body{
     --bs-btn-hover-border-color: #e9c46a;
     --bs-btn-active-color: white;
     --bs-btn-active-bg: #e9c46a;
-    --bs-btn-active-border-color: #e9c46a;
-    
+    --bs-btn-active-border-color: #e9c46a;   
 }
 
+.btn-popup{
+    --bs-btn-color:white;
+    --bs-btn-bg:#e76f51;
+    --bs-btn-border-color: #e76f51;
+    --bs-btn-hover-color: white;
+    --bs-btn-hover-bg: #e9c46a;
+    --bs-btn-hover-border-color: #e9c46a;
+    --bs-btn-active-color: white;
+    --bs-btn-active-bg: #e9c46a;
+    --bs-btn-active-border-color: #e9c46a;  
+    --bs-btn-padding-x: 0.75rem;
+    --bs-btn-padding-y: 0.375rem;
+    --bs-btn-font-family: ;
+    --bs-btn-font-size: 1rem;
+    --bs-btn-font-weight: 400;
+    --bs-btn-line-height: 1.5; 
+}
+
+.btn-popup a{
+    text-decoration: none;
+    color: white;
+}
 
 /* .principal{
     background-image: url(../IMAGENES/ethan-robertson-SYx3UCHZJlo-unsplash.jpg);
@@ -91,11 +112,15 @@ body{
 
 .footer ul {
     background-color: #264653;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 .footer ul li{
     list-style-type: none;
-    display: inline-block;
-    padding: 20px 90px;
     color: white;
 }
 .whatsapp{
@@ -116,12 +141,16 @@ body{
 }
 
 .primeraParte h1{
-    padding: 50px 0 0 540px;
-    font-size: 45px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
 }
 
 .primeraParte p{
-    padding: 10px 0 0 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     font-size: 25px;
     font-weight: 600;
     font-style: italic;
@@ -132,12 +161,20 @@ body{
     height: 50px;
     padding-top: 20px;
     margin-top: 30px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
 
 .Europa h3{
-    padding: 0 0 400px 610px;
+   /*  padding: 0 0 400px 610px; */
     font-size: 25px;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
 }
+
+
 
 .tours{
     width: 450px;
@@ -385,9 +422,8 @@ body{
 .destinoseur img{
     width: 300px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .argentit h2{
@@ -405,16 +441,16 @@ body{
 .destinosarg img{
     width: 300px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 20px;
 }
 
 .destinoscar h2{ 
-    margin-left: 650px;
-    margin-top: 30px;
-    font-size: 30px
+    font-size: 30px;
+    margin-left: 620px ;
+    padding-top: 20px;
 }
+
 
 .destinoscar img{
     width: 300px;
@@ -438,7 +474,20 @@ body{
 .destinosdis img{
     width: 300px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+/* Mobile */
+
+@media screen and (max-width:500px){
+
+.footer ul{
+    flex-direction: column;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    align-items: center;
+    }
+
 }
