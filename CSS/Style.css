@@ -8,8 +8,6 @@ body{
     font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
 /* Bootstrap */
 
 .bg-naranja{
@@ -54,32 +52,6 @@ body{
     text-decoration: none;
     color: white;
 }
-
-/* .principal{
-    background-image: url(../IMAGENES/ethan-robertson-SYx3UCHZJlo-unsplash.jpg);
-    height: 400px;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.principal h1{
-    padding: 10px 0 0 500px;
-    
-}
-
-.principal p{
-    padding: 10px 0 0 400px;
-    font-size: 25px;
-    font-weight: 600;
-    font-style: italic;
-}
-
-.titulofot{
-    margin-left: 500px;
-    margin-top: 50px;
-    font-size: 20px;
-} */
 
 .fotos{
     display: flex;
@@ -214,82 +186,115 @@ body{
 }
 
 .inicionos h2{
-    margin-left: 150px ;
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     padding-top: 100px ;
     font-size: 45px;
-    
+    margin-left: 40px;
+    color: white;
 }
 
-.inicionos h3{
-    margin-left: 60px ;
-    padding-top: 15px;
-    font-size: 25px;
-    font-style:italic;
+.inicionos p{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
+    font-size: 35px;
+    margin-left: 30px;
+    color: white;
+    font-style: italic;
 }
 
 .nostext{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     background-color:bisque;
-    height: 300px; 
-    
+    height: 300px;     
 }
 
+.nostext img{
+    width: 150PX;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+}
+
+
 .lideres{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     padding-top: 100px;
-    padding-left: 100px;
     font-size: 30px;
+    margin-left:30px;
 }
 
 .textolid{
-    width: 1000px;
-    text-align: center;
-    padding-left: 600px;
-    font-size: 20px;
+    flex-direction: row;
+    display: flex;
+    justify-content:right;
+    width: 500px;
+    justify-content:right;
 }
 
 .mision{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     background-color: #2a9d8f ;
     height: 300px;
     padding-top: 45px;
-    display: flex;
 }
 
 .mision img{
+    flex-direction: column;
+    display: flex;
+    justify-content:left;
     width: 100px;
     height: 100px;
-    margin-left: 650px;
-    display: flex;
 
 }
 
 .mision h2{
-    margin-left: 650px;
-    padding-top: 20px;
+    flex-direction: column;
     display: flex;
+    justify-content:left;
+
 }
 
 .mision p{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     text-align: center;
     margin: 25px 30px 0 30px;
     font-size: 20px;
-    display: flex;
+
 }
 
 .vision{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     background-color: bisque;
     height: 300px;
-    display: flex;
 }
 
 .vision img{
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     width: 100px;
     height: 130px;
-    margin-left: 650px;
     padding-top: 30px;
-    display: flex;
 }
 
 .vision h2{
-    margin-left: 650px;
+    flex-direction: row;
+    display: flex;
+    justify-content:left;
     padding-top: 20px;
 }
 
@@ -321,6 +326,9 @@ body{
 }
 
 .contactanos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-top: 30px;
     font-size: 30px;
     background-color: #264653;
@@ -329,28 +337,47 @@ body{
     width: 500px;
 }
 
-.datos{
-    padding-top: 20px;
-    font-size: 20px;
-    margin-left: 30px;
-}
+    .form-control {
+        display: block;
+        width: 300px;
+        padding: 0.200rem 0.75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: 0.375rem;
+    }
+    .btn{
+        margin-top: 10px;
+    }
 
 .informacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     width: 1349px;
     height: 100px;
     background-color: #2a9d8f;
-   display: flex;
-   margin-top: 10px;
+    margin-top: 10px;
 }
 
 .informacion p {
+    display: flex;
+    flex-direction: row;
     color: white;
     font-size: 20px;
     padding-top: 35px;
-    padding-left: 10px;
 }
 
 .emogi{
+    display: flex;
+    flex-direction: row;
     width: 70px;
     height: 70px;
     padding-left: 10px;
@@ -358,32 +385,21 @@ body{
 }
 
 .emogitel{
+    display: flex;
+    flex-direction: row;
     width: 65px;
     height: 65px;
-    margin-left: 80px;
     padding-top: 10px;
 }
 
 .emogihorario{
+    display: flex;
+    flex-direction: row;
     width: 70px;
     height: 70px;
-    margin-left: 80px;
     padding-top: 10px;
 }
 
-.mapa{
-    width: 450px;
-    height: 400px;
-    padding-top: 30px;
-}
-
-.ubicacion{
-    display: inline-block;
-}
-
-.direccion{
-    display: inline-block;
-}
    
 .destinos{
     background-image: url(../IMAGENES/annie-spratt-qyAka7W5uMY-unsplash.jpg);
@@ -395,68 +411,47 @@ body{
 }
 
 .destinos h1{
-    padding-top: 130px ;
-    margin-left: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 110px ;
     font-size: 40px;
 }
 
 .destinos p{
-    margin-left: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     padding-top: 10px;
-    font-size: 20px; 
+    font-size: 27px;
+    
 }
 
-.eurotit h2{
-    font-size: 30px;
-    margin-left: 620px ;
-    padding-top: 20px
 
-}
-
-.destinoseur{
+.accordion-button {
+    position: relative;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
+    align-items: center;
+    width: 100%;
+    padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+    font-size: 20px;
+    color: black (--bs-accordion-btn-color);
+    text-align: center;
+    background-color:#2a9d8f;
+    border: 0;
+    border-radius: 0;
+    overflow-anchor: none;
+    transition: var(--bs-accordion-transition);
+    margin-top: 10px;
+    margin-bottom: 10px
 }
 
-.destinoseur img{
-    width: 300px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-.argentit h2{
-    font-size: 30px;
-    margin-left: 620px ;
-    padding-top: 20px;
-}
-
-.destinosarg{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-
-.destinosarg img{
-    width: 300px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
-}
-
-.destinoscar h2{ 
-    font-size: 30px;
-    margin-left: 620px ;
-    padding-top: 20px;
-}
-
-
-.destinoscar img{
-    width: 300px;
-    height: auto;
-    margin-left: 30px;
-    margin-top: 20px;
+.accordion-button:not(.collapsed) {
+    color:black;
+    background-color:#2a9d8f;
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+    margin-top: 10px;
+    justify-content: center;
 }
 
 .distit h2{
@@ -490,4 +485,39 @@ body{
     align-items: center;
     }
 
+    .destinos p{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 10px;
+        font-size: 22px;
+    }
+
+    .contactanos{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 30px;
+        font-size: 20px;
+        background-color: #264653;
+        color: white;
+        padding-bottom: 20px;
+        width: 320px;
+    }
+
+   .informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 600px;
+    width: 375px;
+    background-color: #2a9d8f;
+    margin-top: 10px;
+}
+    .ubic{
+    width: 360px;
+    height:350px;
+    margin-top: 10px;
+}
 }

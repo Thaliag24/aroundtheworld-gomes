@@ -17,14 +17,14 @@
     <header> 
         <nav class="navbar navbar-expand-lg bg-naranja">
             <div class="container-fluid">
-              <a class="navbar-brand" href="./Index.html"><img src="../IMAGENES/LOGO_EESTE-removebg-preview (4).png" alt="Logo"></a>
+              <a class="navbar-brand" href="./index.html"><img src="../IMAGENES/LOGO_EESTE-removebg-preview (4).png" alt="Logo"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" href="../Index.html">Inicio</a>
+                    <a class="nav-link" href="../index.html">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="../PAGINAS/Excursiones.html">Excursiones</a>
@@ -51,28 +51,46 @@
        </main>
 
        <h2 class="contactanos">Formulario de Contacto.</h2>
-
-        <form action="enviar.php" method="" enctype="">
-            <div class="datos">
-                <label for="Nombre">Nombre</label>
-                <input type="text" id="Nombre">
+<section class="container-fluid">
+  <h3 class="formulario__titulo m-4">Cómo podemos ayudarte?</h3>
+<div class="row my-5">
+<div class="col-lg-8 col-md-12"> 
+       <form>
+        <div class="row"> 
+          <div class="mb-3 col-lg-6 col-md-6">
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="mb-3 col-lg-6 col-md-6">
+          <label for="correo" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="correo">
+        </div>
+     </div>                        
+        <div class="row"> 
+          <div class="mb-3 col-lg-6 col-md-6">
+          <label for="telefono" class="form-label">Telefono:</label>
+          <input type="tel" class="form-control" id="telefono">
+          </div>
+          <div class="mb-3 col-lg-6 col-md-6">
+          <label for="localidad" class="form-label">Localidad:</label>
+          <input type="loc" class="form-control" id="localidad">
+          </div>
+        </div>
+      <div class="row">
+          <div class="form-floating col-lg-12">
+            <label for="mensaje" class="form-label">Mensaje:</label>
+            <textarea class="form-control" id="mensaje" rows="3"></textarea>
             </div>
-            <div class="datos">
-                <label for="Apellido">Apellido</label>
-                <input type="text" id="Apellido">
-            </div>
-            <div class="datos">
-                <label for="Telefono">Telefono</label>
-                <input type="text" id="Telefono">
-            </div>
-            <div class="datos">
-                <label for="Email">Mail</label>
-                <input type="email" id="Email">
-            </div>
-            <div class="datos">
-                <label for="Comentarios">Comentarios</label>
-                <textarea name="text" id="Comentarios" cols="40"></textarea>
-            </div>
+      </div>
+      <div class="col-lg-4">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+  </form>
+    <div class="col-lg-4">
+    <img  class="ubic" src="../IMAGENES/Ubicacion.PNG">
+    </div>
+  </div>
+</section>
   
             <div class="informacion">
                 <img class="emogi"  src="../IMAGENES/correo.png" alt="Correo">
@@ -82,13 +100,6 @@
                 <img class="emogihorario" src="../IMAGENES/temporizador.png" alt="Horario">
                 <p>Lunes a Viernes  08:00 a 17hrs.</p>
             </div>
-
-            <section class="ubicacion">
-                <img class="mapa" src="../IMAGENES/Ubicacion.PNG" alt="Ubicacion">
-                <p class="direccion"> Calle Celestino Vidal 3582, CP 1429.</p>
-            </section>
-
-       
 
 
             <footer class="footer">
