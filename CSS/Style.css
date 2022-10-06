@@ -53,47 +53,24 @@ body{
     color: white;
 }
 
-.fotos{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    margin-top: 40px;
-}
-
-.fotos img{
-    width: 300px;
-    height: auto;
-    justify-content: space-between;
-}
-
-.caribe:hover{
-    filter: blur(5px);
-}
-
-.argentina:hover{
-    filter: blur(5px);
-}
-
-.disney:hover{
-    filter: blur(5px);
-}
-
-.europa:hover{
-    filter: blur(5px);
-}
-
-.footer ul {
+.footer {
     background-color: #264653;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 20px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-.footer ul li{
-    list-style-type: none;
     color: white;
+}
+
+.facebook img{
+    width: 40px;
+    height: 40px;
+}
+
+.instagram img{
+    width: 47px;
+    height: 47px;
+}
+
+.twitter img{
+    width: 40px;
+    height: 40px;
 }
 .whatsapp{
     position: fixed;
@@ -476,14 +453,6 @@ body{
 /* Mobile */
 
 @media screen and (max-width:500px){
-
-.footer ul{
-    flex-direction: column;
-    font-size: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    align-items: center;
-    }
 
     .destinos p{
         display: flex;
